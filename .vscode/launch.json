@@ -7,8 +7,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open 0-index.html",
-            "file": "c:\\Users\\BH\\Desktop\\alx_html_css\\flexbox\\0-index.html"
+            "name": "Open 1-index.html",
+            "file": "c:\\Users\\BH\\Desktop\\alx_html_css\\flexbox\\1-index.html"
         }
     ]
 }
