@@ -1,17 +1,21 @@
+.logo {
+    font-size:75px;
+}
 body {
+    background-color: rgb(192, 207, 136);
+    border-style:inset;
     display: flex;
     flex-direction:column;
-    background-color: blueviolet;
 }
 
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
-    background-color: aqua;
 }
 
 article {
+color:rgb(114, 16, 16);
     flex: 2;
     overflow-y: auto;
 }
