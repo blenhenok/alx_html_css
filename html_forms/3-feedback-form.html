@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<body>
+
+<h2>Feedback Form</h2>
+
+<form action="/submit_feedback">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" required><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <p>Feedback:</p>
+  <input type="checkbox" id="excellent" name="feedback" value="excellent" required>
+  <label for="excellent">Excellent</label><br>
+  <input type="checkbox" id="good" name="feedback" value="good">
+  <label for="good">Good</label><br>
+  <input type="checkbox" id="average" name="feedback" value="average">
+  <label for="average">Average</label><br>
+  <input type="checkbox" id="poor" name="feedback" value="poor">
+  <label for="poor">Poor</label><br>
+
+  <label for="file">Upload a file:</label><br>
+  <input type="file" id="file" name="file" required><br>
+
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
