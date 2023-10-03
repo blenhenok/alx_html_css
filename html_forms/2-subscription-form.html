@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<body>
+
+<h2>Subscription Form</h2>
+
+<form action="/submit_subscription">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" required><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <p>Subscription Preference:</p>
+  <input type="radio" id="monthly" name="subscription" value="monthly" required>
+  <label for="monthly">Monthly</label><br>
+  <input type="radio" id="yearly" name="subscription" value="yearly">
+  <label for="yearly">Yearly</label><br>
+  
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
